@@ -1,0 +1,157 @@
+@font-face{
+    font-family:awesome;
+    src:url("../font/XRXV3I6Li01BKofINeaB.woff2")
+}
+
+body{
+    font-family: awesome;
+}
+
+#mainheader{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%),url("./../img/bg-masthead.jpg") ;
+    background-size: cover;
+    height: auto;
+    color: lightgray;
+    padding-bottom: 10rem;
+
+    h1{
+        padding-top: 15rem;
+    }
+    
+    button{
+        background-color: #64a19d !important;
+        padding: 1rem 3rem 1rem 3rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        &:hover {
+            opacity: 0.8;
+          }
+    }
+
+}
+
+
+#ipadsection{
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    height: auto;
+    padding-top: 5rem;
+
+   div{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   } 
+
+}
+
+#borderdiv{ 
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+}
+
+#foursec{
+    background-color: black;
+    hr {
+        border-color: #64a19d;
+        border-width: 0.25rem;
+        width: 30%;}
+}
+
+#secfooter{
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("./../img/bg-signup.jpg");
+    background-size: cover;
+    height: auto;
+
+    i{
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+      input[type=text], input[type=submit] {
+        font-size: 0.9rem;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        border-radius: 5px;
+      }
+      
+      input[type=checkbox] {
+        margin-top: 16px;
+      }
+      
+      input[type=submit] {
+        background-color:#64a19d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      input[type=submit]:hover {
+        opacity: 0.8;
+      }
+}
+
+#myfooter{
+    background-color: black;
+    height: auto;
+    .he-160{
+        height: 160px;
+    }
+
+    i{
+        color: #64a19d;
+    }
+    
+    .borderblue{
+        border-bottom: 4px solid #64a19d;
+        border-radius: 5px;
+        h5{
+            font-size: 0.9rem;
+        }
+        P{
+            padding-top: 15px;
+            font-size: 0.8rem;
+            color: gray;
+        }
+    }
+
+    hr {
+        border-color: #64a19d;
+        border-width: 0.25rem;
+        width: 3rem;}
+}
+
+#socialicons{
+    font-size: 2.5rem;
+    a{
+        i{
+        color: #343a40;
+
+        &:hover{
+            color: gray;
+        }
+    }
+    }
+    
+}
+
+@media only screen and (min-width:800px) {
+        #przero{
+            padding-right: 0;
+        }
+
+        #plzero{
+            padding-left: 0;
+        }
+}
+
+@media only screen and (max-width:600px) {
+  #foursec{
+      text-align: center;
+  }
+}
